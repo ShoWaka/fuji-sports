@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>フジスポーツジャパン過去のイベント情報</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="フジスポーツジャパンの公式サイトです。このページでは過去に開催されたイベント情報を配信しております。都内、東京都、山梨県などで開催されるマラソン（ハーフマラソンなど含む）、エンデューロ、アクアスロン、トライアスロンの開催イベントを随時掲載しています。">
+        <meta name="keywords" content="フジスポーツジャパン,フジスポ,マラソン,エンデューロ,デュアスロン,トライアスロン">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jq.js"></script>
+        <script src="js/openclose.js"></script>
+        <script src="js/fixmenu_pagetop.js"></script>
+        <!-- <script src="js/ddmenu_min.js"></script> -->
+        <!-- <script language="JavaScript" src="https://www.nannichime.net/s.php?d=2022/6/4"></script> -->
+
+        <!--[if lt IE 10]>
+<style>
+.slide0,.slide2,.slide3 {display:none;}
+</style>
+<![endif]-->
+        <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+        <style>
+            /*１枚目*/
+            .slide1 {
+                background: url(images/eventInfo/TopImage1.jpg) repeat-x center center / cover !important;
+                animation-name: slide1;
+                /*keyframes.cssで使う@keyframesの指定*/
+                /* z-index: 0; */
+            }
+
+            /*２枚目*/
+            .slide2 {
+                background: url(images/eventInfo/TopImage2.jpg) repeat-x center center / cover !important;
+                animation-name: slide2;
+                /*keyframes.cssで使う@keyframesの指定*/
+                /* z-index: 0; */
+            }
+
+            /*３枚目*/
+            .slide3 {
+                background: url(images/eventInfo/TopImage3.jpg) no-repeat center center / cover !important;
+                animation-name: slide3;
+                /*keyframes.cssで使う@keyframesの指定*/
+                /* z-index: 0; */
+            }
+
+            .home #contents {
+                margin-top: 560px;
+            }
+
+            @media screen and (max-width: 600px) {
+                .home #contents {
+                    margin-top: 280px;
+                }
+            }
+        </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3T20VKRZXJ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-3T20VKRZXJ');
+        </script>
+    </head>
+
+    <body class="home">
+
+        <header id="header">
+            <h1 id="logo">
+                <a href="index.html"><img src="images/fujisportsjapan_bk.svg" alt="フジスポーツジャパンロゴ"></a>
+            </h1>
+            <!--PC用（901px以上端末）メニュー-->
+            <nav id="menubar">
+                <ul>
+                    <li class="ddmenu-title"><a href="eventInfo.html">イベント情報</a></li>
+                    <li class="ddmenu-title"><a href="YOELEO.html">YOELEO</a></li>
+                    <li class="ddmenu-title"><a href="aboutus.html">私達について</a></li>
+                    <li class="ddmenu-title"><a href="company.html">会社情報</a></li>
+                    <li class="ddmenu-title"><a href="contact.html">お問い合わせ</a></li>
+                    <li class="ddmenu-title"><a href="#">過去のイベント</a></li>
+
+                </ul>
+            </nav>
+            <!--小さい端末用（900px以下端末）メニュー-->
+            <nav id="mobile_menu" style="display: none;">
+                <ul>
+                    <a href="eventInfo.html">
+                        <li class="mobile_title close">イベント情報</li>
+                    </a>
+                    <a href="YOELEO.html">
+                        <li class="mobile_title close">YOELEO</li>
+                    </a>
+                    <a href="aboutus.html">
+                        <li class="mobile_title close">私達について</li>
+                    </a>
+                    <a href="company.html">
+                        <li class="mobile_title close">会社情報</li>
+                    </a>
+                    <a href="contact.html">
+                        <li class="mobile_title close">お問い合わせ</li>
+                    </a>
+                    <a href="#">
+                        <li class="mobile_title close">過去のイベント</li>
+                    </a>
+                </ul>
+            </nav>
+            <!-- <ul class="icon">
+			<li><a href="#"><img src="images/icon_facebook.png" alt="Facebook"></a></li>
+			<li><a href="#"><img src="images/icon_twitter.png" alt="Twitter"></a></li>
+			<li><a href="#"><img src="images/icon_instagram.png" alt="Instagram"></a></li>
+			<li><a href="#"><img src="images/icon_youtube.png" alt="TouTube"></a></li>
+		</ul> -->
+        </header>
+
+        <div id="contents">
+            <section id="pastEvent">
+                <h2>過去のイベントリスト</h2>
+                <table>
+                    <tr>
+                        <th>開催日程</th>
+                        <th>大会名称</th>
+                        <th>イベントページ</th>
+
+                    </tr>
+
+                    <tr>
+                        <td>2023年4月30日(日)</td>
+                        <td>山梨スカイサイクルフェスタ</td>
+                        <td><a href="eventPages/enduro/2023-04-30enduro.html">イベントページへ</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>2022年10月22日(土)</td>
+                        <td>山梨スペシャリティ・フルマラソン・30キロ・ハーフ・10キロ・5キロ・親子</td>
+                        <td><a href="eventPages/marathon/2022-10-22marathon.html">イベントページへ</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>2022年10月2日(日)</td>
+                        <td>山梨スカイサイクルフェスタ</td>
+                        <td><a href="eventPages/enduro/2022-10-02enduro.html">イベントページへ</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>2022年6月25日(土)</td>
+                        <td>山梨スペシャリティ3時間リレーマラソン・ハーフ・10キロ・親子マラソン</td>
+                        <td><a href="eventPages/marathon/2022-06-25marathon.html">イベントページへ</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>2021年12月12日(日)</td>
+                        <td>山梨スペシャリティハーフマラソン+5キロ10キロマラソン</td>
+                        <td><a href="eventPages/marathon/2021-12-12marathon.html">イベントページへ</a></td>
+                    </tr>
+                </table>
+            </section>
+
+        </div>
+        <!--/#contents-->
+
+        <footer>
+            <div id="copyright">
+                <p><strong>フジスポーツジャパン</strong></p>
+                <small>Copyright&copy; フジスポーツジャパン All Rights Reserved.</small>
+
+            </div>
+            <!--/#copyright-->
+        </footer>
+
+        <!--背景スライドショー-->
+        <aside id="height500" class="eventInfo">
+            <div class="slide0">slide0</div>
+            <div class="slide1">slide1</div>
+            <div class="slide2">slide2</div>
+            <div class="slide3">slide3</div>
+        </aside>
+
+
+        <!--ページの上部に戻る「↑」ボタン-->
+        <p class="nav-fix-pos-pagetop toTop"><a href="#">↑</a></p>
+
+        <!--メニュー開閉ボタン-->
+        <div id="mobile_hdr" class="close"></div>
+
+        <!-- DO NOT MODIFY (以下ライセンスコード) -->
+        <!--License20210703eFptR-->
+    </body>
+
+</html>
